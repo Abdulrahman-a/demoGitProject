@@ -7,13 +7,13 @@ public class firstclass {
 		
 		System.out.println("wellcome");
 		System.out.println("helo");
-		System.out.println("Result is: "+ add(x,y));
+		System.out.println("Result is: "+ add(x,x));
 		//add(x,y);
 
 	}
 	
 	public static int add(int x, int y){
-		int result=x+y;
+		int result=x+x;
 		return result ;
 	}
 
